@@ -1,0 +1,59 @@
+@media screen and (max-width: 780px) {
+
+    .navbar {
+        h3 {
+            font-size: .8rem;
+        }
+
+        ul {
+            font-size: .7rem;
+        }
+    }
+
+    .feat {
+        font-size: .6rem;
+
+        h2 {
+            font-size: 1rem;
+        }
+    }
+
+    #About_me {
+        h2 {
+            font-size: 1rem;
+        }
+
+        h3 {
+            font-size: 1rem;
+        }
+
+        p {
+            font-size: .6rem;
+        }
+
+        span {
+            font-size: .8rem;
+        }
+
+        label {
+            font-size: .8rem;
+        }
+
+        input {
+
+            height: 1.5rem;
+        }
+
+        input[type="submit"] {
+            height: 1.5rem;
+            font-size: .5rem;
+            background: #191E22;
+            color: white;
+            width: 30%;
+            padding-bottom: 1.5rem;
+
+        }
+
+
+    }
+}

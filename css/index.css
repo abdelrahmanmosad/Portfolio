@@ -1,0 +1,266 @@
+@media screen and (max-width: 780px) {
+  .navbar h3 {
+    font-size: .8rem;
+  }
+  .navbar ul {
+    font-size: .7rem;
+  }
+  .feat {
+    font-size: .6rem;
+  }
+  .feat h2 {
+    font-size: 1rem;
+  }
+  #About_me h2 {
+    font-size: 1rem;
+  }
+  #About_me h3 {
+    font-size: 1rem;
+  }
+  #About_me p {
+    font-size: .6rem;
+  }
+  #About_me span {
+    font-size: .8rem;
+  }
+  #About_me label {
+    font-size: .8rem;
+  }
+  #About_me input {
+    height: 1.5rem;
+  }
+  #About_me input[type="submit"] {
+    height: 1.5rem;
+    font-size: .5rem;
+    background: #191E22;
+    color: white;
+    width: 30%;
+    padding-bottom: 1.5rem;
+  }
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(../images/digital-marketing-agency-large-1170x600.jpg);
+  background-repeat: no-repeat;
+  height: 25rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover;
+}
+
+.header .intro {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.header .intro h2 {
+  color: lightyellow;
+  margin: 3rem 0;
+  font-size: 3rem;
+  border-bottom: 4px solid black;
+  border-top: 4px solid black;
+  padding: 1rem 0;
+}
+
+.header .intro button {
+  background-color: white;
+  width: auto;
+  border: none;
+  font-weight: bold;
+  padding: .5rem 1rem;
+  margin-top: 1rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.header .intro button:hover {
+  background-color: lightskyblue;
+  color: black;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #252F31;
+  color: #FFF;
+  margin-bottom: 2rem;
+}
+
+.navbar h3 {
+  text-transform: uppercase;
+  color: #9dd0f0;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: .6rem 1rem;
+}
+
+.navbar ul li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.navbar ul li.active a,
+.navbar ul li a:hover {
+  color: #9dd0f0;
+}
+
+.feat h2 {
+  color: #444;
+}
+
+.feat p {
+  color: #888;
+}
+
+.About {
+  background-color: #252F31;
+  color: white;
+}
+
+img {
+  width: 95%;
+}
+
+#me img {
+  width: 100%;
+  height: 100%;
+}
+
+#proto img {
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  opacity: .8;
+}
+
+#proto img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  opacity: 1;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.technique h3 {
+  color: #555;
+}
+
+.technique div {
+  background: #F2F2F1;
+  height: 2rem;
+  border: 1px solid #9dd0f0;
+}
+
+.technique div span {
+  background: #9dd0f0;
+  height: 1.93rem;
+  display: block;
+  color: #FFF;
+  line-height: 1.8rem;
+  text-align: right;
+  font-weight: bold;
+}
+
+.resume {
+  background-color: #252F31;
+  color: white;
+}
+
+.resume h2 {
+  font-weight: bold;
+}
+
+.resume p {
+  line-height: 1.7;
+}
+
+.resume button {
+  margin-top: 1rem;
+}
+
+.col-6 .row span {
+  width: 5.5rem;
+  color: black;
+  margin-left: .9rem;
+  background-color: #9dd0f0;
+}
+
+.Contact {
+  background: #252F31;
+  color: white;
+}
+
+.form label {
+  color: white;
+}
+
+.form input {
+  background: #4B5557;
+  color: white;
+  padding: 10px;
+  border: 0;
+  width: 100%;
+}
+
+.form textarea {
+  background: #4B5557;
+  color: #FFF;
+  padding: 10px;
+  border: 0;
+  width: 100%;
+  margin-bottom: 10px;
+  height: 250px;
+}
+
+.form input[type="submit"] {
+  background: #191E22;
+  color: white;
+  margin: auto 6rem;
+  width: 40%;
+}
+
+.footer {
+  background: #191E22;
+  text-align: center;
+  color: #FFF;
+}
+
+.footer a {
+  color: #e6e8e7;
+}
+
+.footer a:hover {
+  color: #9dd0f0;
+}
+/*# sourceMappingURL=index.css.map */
